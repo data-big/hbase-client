@@ -1,6 +1,7 @@
 package info.hb.hbase.client.demo;
 
 import info.hb.hbase.client.core.HbasePool;
+import info.soft.common.conn.pool.PoolConfig;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -13,8 +14,6 @@ import org.apache.hadoop.hbase.client.Connection;
 import org.apache.hadoop.hbase.client.Put;
 import org.apache.hadoop.hbase.client.Table;
 import org.apache.hadoop.hbase.util.Bytes;
-
-import zx.soft.common.conn.pool.PoolConfig;
 
 /**
  * HBase连接池示例：包含Table数据写入、批量异步写入、数据扫描

@@ -2,6 +2,7 @@ package info.hb.hbase.client.demo;
 
 import info.hb.hbase.client.core.HbasePool;
 import info.hb.hbase.client.utils.Cdh5Config;
+import info.soft.common.conn.pool.PoolConfig;
 
 import java.io.IOException;
 
@@ -18,8 +19,6 @@ import org.apache.hadoop.hbase.client.coprocessor.AggregationClient;
 import org.apache.hadoop.hbase.client.coprocessor.LongColumnInterpreter;
 import org.apache.hadoop.hbase.filter.FirstKeyOnlyFilter;
 import org.apache.hadoop.hbase.util.Bytes;
-
-import zx.soft.common.conn.pool.PoolConfig;
 
 /**
  * HBase统计数据表行数示例

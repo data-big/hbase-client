@@ -2,6 +2,7 @@ package info.hb.hbase.client.demo;
 
 import info.hb.hbase.client.core.HbasePool;
 import info.hb.hbase.client.utils.Cdh5Config;
+import info.soft.common.conn.pool.PoolConfig;
 
 import java.io.IOException;
 
@@ -16,8 +17,6 @@ import org.apache.hadoop.hbase.io.compress.Compression;
 import org.apache.hadoop.hbase.regionserver.BloomType;
 import org.apache.hadoop.hbase.regionserver.ConstantSizeRegionSplitPolicy;
 import org.apache.hadoop.hbase.util.Bytes;
-
-import zx.soft.common.conn.pool.PoolConfig;
 
 public class HbaseAdminDemo {
 

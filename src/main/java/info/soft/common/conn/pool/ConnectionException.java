@@ -1,4 +1,4 @@
-package zx.soft.common.conn.pool;
+package info.soft.common.conn.pool;
 
 /**
  * 连接异常

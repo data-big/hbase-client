@@ -5,7 +5,7 @@ import org.apache.commons.pool2.impl.DefaultPooledObject;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.client.Connection;
 
-import zx.soft.common.conn.pool.ConnectionFactory;
+import info.soft.common.conn.pool.ConnectionFactory;
 
 /**
  * Hbase连接工厂
